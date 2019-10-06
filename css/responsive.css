@@ -1,0 +1,127 @@
+@media screen and (min-width:400px) {
+  #logo h1 {
+    display: block;
+  }
+  #homeAnim img {
+    top: 25vw;
+  }
+
+  /***********************************/
+
+  @media screen and (min-width:576px) {
+    .imagesP {
+      --rapport: 7;
+    }
+    article {
+      --rapport: 9;
+    }
+  }
+
+  /***********************************/
+
+  @media screen and (min-width:768px) {
+    header {
+      height: 100vh;
+    }
+    #homeAnim {
+      width: 100vh;
+      max-height: 80vw;
+    }
+    #homeAnim img {
+      top: 10vw;
+    }
+    #homeAnim .button {
+      display: block;
+    }
+    #navbar {
+      background: rgba(50, 50, 50, 0.3) !important;
+    }
+  }
+
+  /************************************/
+
+  @media screen and (min-width:992px) {
+    html {
+      font-size: 1rem;
+    }
+    .imagesP {
+      --rapport: 8;
+    }
+    .up, .down {
+      display: block;
+    }
+    #homeAnim {
+      width: 100vh;
+      max-height: 80vh;
+    }
+    #homeAnim img {
+      top: 10vh;
+    }
+    #lesalon h3 {
+      padding: 50px 0 20px 0;
+    }
+    .backgroundOpacity, #lesalon, #lequipe, #contact {
+      min-height: 100vh;
+    }
+    #lesalon .imagesP:first-of-type {
+      padding-top: 50px;
+      border-radius: 50px;
+    }
+    #lesalon .imagesP:last-of-type {
+      margin: 90px 0 0 65px;
+    }
+    #lesalon .imagesP img {
+      width: 100%;
+      height: auto;
+    }
+    p {
+      line-height: 175%;
+    }
+    .texte p {
+      text-align: center;
+    }
+    article:nth-of-type(1) h3.slideInDown {
+      animation-delay: 0.2s;
+    }
+    article:nth-of-type(2) h3.slideInDown {
+      animation-delay: 0.4s;
+    }
+    article:nth-of-type(3) h3.slideInDown {
+      animation-delay: 0.6s;
+    }
+    article p {
+      opacity: 0;
+      animation: opacity 0.5s ease-in-out 2s forwards;
+    }
+    footer {
+      height: 50%;
+    }
+  }
+
+  /***********************************/
+
+  @media screen and (min-width:1200px) {
+    html {
+      font-size: 1.3rem;
+    }
+    .imagesP {
+      --rapport: 10;
+    }
+    article {
+      --rapport: 10;
+    }
+  }
+  @media screen and (min-width:1500px) {
+    html {
+      font-size: 1.4rem;
+    }
+    .imagesP {
+      --rapport: 10;
+    }
+    article {
+      --rapport: 14;
+    }
+    .images img.cadre {
+      left: -20px;
+    }
+  }

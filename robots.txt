@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+Sitemap: https://carlindusdesign.fr/barber-club/sitemap.xml 
